@@ -1,5 +1,5 @@
 body{
-  background-color:pink;
+  background-color:#F1E4E8;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -7,7 +7,7 @@ body{
 }
 
 .card{
-  background-color: #38BEDC;
+  background-color: #CEB1BE;
   display: flex;
   position: relative;
   overflow: hidden;
@@ -18,23 +18,23 @@ body{
   height: 80px;
   line-height: 80px;
   text-align: center;
-  color: #9B314D;
+  color: #412234;
   font-size: 40px;
-  transition: .3s linear;
+  transition: .4s linear;
 }
 
 .card a:hover{
-  color: red;
+  color: #B97375;
 }
 
 .bar{
   position: absolute;
   width: 100px;
   height: 4px;
-  background-color: red;
+  background-color: #B97375;
   bottom: 0;
   left: -100px;
-  transition: .4s linear;
+  transition: .5s ease;
 }
 
 .card a:nth-child(1):hover ~ .bar{
